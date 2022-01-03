@@ -1,9 +1,9 @@
 # Football_league
-obi is a cli tool to bring together all my utilities into a centralised place.
+league is a cli tool to return points of a league games
 
 
 ## How to Install
-1. `git clone https://github.com/simphiwe/cli-obi.git`
+1. `git clone https://github.com/ssfakude/Football_league_CLI.git`
 2. `cd league`
 3. `pip install --editable .`
 4. `league`
@@ -25,12 +25,13 @@ Lions 4, Grouches 0
 
 ```
 __Expected output:__
-
+```
 1. Tarantulas , 6 pts
 2. Lions , 5 pts
 3. FC Awesome , 1 pts
 4. Snakes , 1 pts
 5. Grouches , 0 pts
+```
 
 ```commandline
 Usage: league [OPTIONS] COMMAND [ARGS]...
@@ -48,7 +49,6 @@ Command:
 
 ___options___
 * `-f` `--file_name` - override the default location. ` league -f <league_matches_filename>`
-
 
 
 
